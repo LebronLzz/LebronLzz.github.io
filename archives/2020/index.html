@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          基于gitHub和hexo的个人博客搭建 - null
+          
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/2019/09/13/基于gitHub+hexo搭建个人博客/">
+    <link rel="canonical" href="http://yoursite.com/archives/2020/">
 
     <!-- Bootstrap Core CSS -->
 
@@ -101,17 +101,13 @@
 			
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" style="z-index:2;">
                 
-                    <div class="post-heading" style="padding:40px">
-                        <div class="tags">
-                            
-                        </div>
-                        <h1>基于gitHub和hexo的个人博客搭建</h1>
-                        <h2 class="subheading"></h2>
-                        <span class="meta">
-                            Posted by 会写代码的詹姆斯 on
-                            2019-09-13
-                        </span>
+				
+                    <div class="site-heading"  style="padding:40px">
+                        <h1></h1>
+                        <!--<hr class="small">-->
+                        <span class="subheading"></span>
                     </div>
+                
                 
                 </div>
             </div>
@@ -223,163 +219,260 @@
 
 
     <!-- Main Content -->
-    <!-- Modify by Yu-Hsuan Yen -->
+    <!-- Main Content -->
+<div class="container">
+    <div class="row">
+        
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-
-            <!-- Post Container -->
+<!-- USE SIDEBAR -->
+    <!-- Post Container -->
             <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                post-container">
-
-                <p>一、环境准备：</p>
-<p>1.安装git</p>
-<p>2.安装node.js（nodejs.org）:nodejs安装完成会产生两个组件一个是nodejs本身，一个是npm包管理器</p>
-<p><img src="/2019/09/13/基于gitHub+hexo搭建个人博客/1568346877025.png" alt></p>
-<p>3.由于npm默认的仓库地址在国外，可以下载个镜像切换工具，切换成国内的，npm install nrm -g,然后nrm ls查看镜像，输入命令nrm use taobao 切换成国内的</p>
-<p><img src="https://img-blog.csdnimg.cn/20190728114502662.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTY1ODM2Mw==,size_16,color_FFFFFF,t_70" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动"></p>
-<ol start="4">
-<li><p>安装hexo (命令：npm install -g hexo-cli)</p>
-</li>
-<li><p>创建个文件夹保存博客（这里我在本地建立个blog文件夹）</p>
-</li>
-<li><p>hexo  inint(初始化)</p>
-</li>
-<li><p>hexo insatll</p>
-</li>
-<li><p>npm install hexo-deployer-git –save</p>
-</li>
-<li><p>配置_config.yml中deploy</p>
-</li>
-<li><p>hexo g -d</p>
-</li>
-</ol>
-
+                col-lg-8 col-lg-offset-1
+                col-md-8 col-md-offset-1
+                col-sm-12
+                col-xs-12
+                post-container
+            ">
+            
+	        
                 
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <!-- 归档列表 -->
+            
+            
 
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    
-                        <li class="previous">
-                            <a href="/2019/09/13/测试图片/" data-toggle="tooltip" data-placement="top" title="hexo博客上传图片">&larr; Previous post</a>
-                        </li>
-                    
-                    
-                        <li class="next">
-                            <a href="/2019/07/20/Idea快速创建SpringBoot项目/" data-toggle="tooltip" data-placement="top" title="如何用idea快速创建springboot项目">Next post &rarr;</a>
-                        </li>
-                    
+             <!-- 归档列表 -->
+
+            
+            <div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2020">
+                    <span class="tag-text">2020</span>
+                </span>
+                <ul>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    01-06
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2020/01/06/springboot集成定时任务/" style="color: #0085a1">
+                        <span>
+                            Untitled
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
+                
                 </ul>
-
-                <br>
-
-                <!--打赏-->
-                
-                <!--打赏-->
-
-                <br>
-                <!--分享-->
-                
-                    <div class="social-share"  data-wechat-qrcode-helper="" align="center"></div>
-                    <!--  css & js -->
-                    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/css/share.min.css">
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/social-share.js/1.0.16/js/social-share.min.js"></script>
-                
-                <!--分享-->
-                <br>                       
-                
-                <!-- require APlayer -->
-                
-
-                <!-- disqus comment start -->
-                
-                <!-- disqus comment end -->
-
-                
-				
             </div>
-
-            <!-- Tabe of Content -->
-            <!-- Table of Contents -->
-
+            
+            <div class="one-tag-list">
+                <span class="fa fa-calendar-times-o listing-seperator" id="2019">
+                    <span class="tag-text">2019</span>
+                </span>
+                <ul>
                 
-            <!-- Sidebar Container -->
-            <div class="
-                col-lg-8 col-lg-offset-2
-                col-md-10 col-md-offset-1
-                sidebar-container">
-
-                <!-- Featured Tags -->
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    09-16
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2019/09/16/SpringBoot集成WebSocket/" style="color: #0085a1">
+                        <span>
+                            SpringBoot集成 WebSocket
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
                 
-                <section>
-                    <!-- no hr -->
-                    <h5><a href="/tags/">Tags</a></h5>
-                    <div class="tags">
-                       
-                    </div>
-                </section>
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    09-13
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2019/09/13/测试图片/" style="color: #0085a1">
+                        <span>
+                            hexo博客上传图片
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
                 
-
-                <!-- Friends Blog -->
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    09-13
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2019/09/13/基于gitHub+hexo搭建个人博客/" style="color: #0085a1">
+                        <span>
+                            基于gitHub和hexo的个人博客搭建
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
                 
-                <hr>
-                <h5>FRIENDS</h5>
-                <ul class="list-inline">
-
-                    
-                        <li><a href="https://blog.csdn.net/weixin_41658363" target="_blank">我的CSDN</a></li>
-                    
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <li >
+                    07-20
+                    <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                    <a href="/2019/07/20/Idea快速创建SpringBoot项目/" style="color: #0085a1">
+                        <span>
+                            如何用idea快速创建springboot项目
+                        </span>
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </li>
+                
                 </ul>
-                
             </div>
+            
+
+
         </div>
     </div>
-</article>
+</div>
+            
 
 
 
+                <!-- 如果开启评论功能 -->
+                
+            </div>
+
+          <!-- Sidebar Container -->
+<div class="
+    col-lg-3 col-lg-offset-0
+    col-md-3 col-md-offset-0
+    col-sm-12
+    col-xs-12
+    sidebar-container
+">
+    
+        <!-- Featured Tags -->
+
+<section>
+    <!-- no hr -->
+    <h5><a href="/tags/">标签云</a></h5>
+    <div class="tags">
+        
+    </div>
+</section>
+
+        <hr>
+    
+        <!-- Short About -->
+<section class="visible-md visible-lg">
+    <h5><a href="/about/">About me</a></h5>
+    <div class="short-about">
+
+        
+            <img id = "avatar_pic" src="/img/avatar/user.jpg" />
+        
+
+        
+            <p>湖人总冠军!</p>
+        
+
+        <!-- SNS Link -->
+        <ul class="list-inline">
+            
+            
+            
+
+            
+
+            
+
+            
+                <li>
+                    <a target="_blank"  href="https://github.com/lebronlzz">
+                        <span class="fa-stack fa-lg">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+                </li>
+            
+            
+            
+            
+        </ul>
+    </div>
+</section>
+
+        <hr>
+    
+        
+  <h5>最近发表</h3>
+  <div class="widget">
+    <ul>
+      
+        <li>
+          <a href="/2020/01/06/springboot集成定时任务/">(no title)</a>
+        </li>
+      
+        <li>
+          <a href="/2019/09/16/SpringBoot集成WebSocket/">SpringBoot集成 WebSocket</a>
+        </li>
+      
+        <li>
+          <a href="/2019/09/13/测试图片/">hexo博客上传图片</a>
+        </li>
+      
+        <li>
+          <a href="/2019/09/13/基于gitHub+hexo搭建个人博客/">基于gitHub和hexo的个人博客搭建</a>
+        </li>
+      
+        <li>
+          <a href="/2019/07/20/Idea快速创建SpringBoot项目/">如何用idea快速创建springboot项目</a>
+        </li>
+      
+    </ul>
+  </div>
+
+        <hr>
+    
+        
+    <h5>归档</h5>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/01/">January 2020</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/09/">September 2019</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/07/">July 2019</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+
+        <hr>
+    
+        <!-- Friends Blog -->
+
+<h5>友情链接</h5>
+<ul class="list-inline">
+
+    
+        <li><a href="https://blog.csdn.net/weixin_41658363" target="_blank">我的CSDN</a></li>
+    
+</ul>
 
 
+        <hr>
+    
+</div>
 
-<!-- async load function -->
-<script>
-    function async(u, c) {
-      var d = document, t = 'script',
-          o = d.createElement(t),
-          s = d.getElementsByTagName(t)[0];
-      o.src = u;
-      if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
-      s.parentNode.insertBefore(o, s);
-    }
-</script>
-<!-- anchor-js, Doc:http://bryanbraun.github.io/anchorjs/ -->
-<script>
-    async("https://cdn.bootcss.com/anchor-js/1.1.1/anchor.min.js",function(){
-        anchors.options = {
-          visible: 'hover',
-          placement: 'left',
-          icon: 'ℬ'
-        };
-        anchors.add().remove('.intro-header h1').remove('.subheading').remove('.sidebar-container h5');
-    })
-</script>
-<style>
-    /* place left on bigger screen */
-    @media all and (min-width: 800px) {
-        .anchorjs-link{
-            position: absolute;
-            left: -0.75em;
-            font-size: 1.1em;
-            margin-top : -0.1em;
-        }
-    }
-</style>
 
+        
+    </div>
+</div>
 
 
     <!-- Footer -->
@@ -484,7 +577,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("http://yoursite.com/2019/09/13/基于gitHub+hexo搭建个人博客/index.html/js/jquery.tagcloud.js",function(){
+        async("http://yoursite.com/archives/2020/index.html/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},

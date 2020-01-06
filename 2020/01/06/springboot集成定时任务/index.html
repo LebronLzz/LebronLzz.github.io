@@ -14,11 +14,11 @@
     <script async defer src="https://buttons.github.io/buttons.js"></script>
     <title>
         
-          基于gitHub和hexo的个人博客搭建 - null
+          
         
     </title>
 
-    <link rel="canonical" href="http://yoursite.com/2019/09/13/基于gitHub+hexo搭建个人博客/">
+    <link rel="canonical" href="http://yoursite.com/2020/01/06/springboot集成定时任务/">
 
     <!-- Bootstrap Core CSS -->
 
@@ -105,11 +105,11 @@
                         <div class="tags">
                             
                         </div>
-                        <h1>基于gitHub和hexo的个人博客搭建</h1>
+                        <h1></h1>
                         <h2 class="subheading"></h2>
                         <span class="meta">
                             Posted by 会写代码的詹姆斯 on
-                            2019-09-13
+                            2020-01-06
                         </span>
                     </div>
                 
@@ -236,28 +236,15 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <p>一、环境准备：</p>
-<p>1.安装git</p>
-<p>2.安装node.js（nodejs.org）:nodejs安装完成会产生两个组件一个是nodejs本身，一个是npm包管理器</p>
-<p><img src="/2019/09/13/基于gitHub+hexo搭建个人博客/1568346877025.png" alt></p>
-<p>3.由于npm默认的仓库地址在国外，可以下载个镜像切换工具，切换成国内的，npm install nrm -g,然后nrm ls查看镜像，输入命令nrm use taobao 切换成国内的</p>
-<p><img src="https://img-blog.csdnimg.cn/20190728114502662.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MTY1ODM2Mw==,size_16,color_FFFFFF,t_70" alt="img"><img src="data:image/gif;base64,R0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw==" alt="点击并拖拽以移动"></p>
-<ol start="4">
-<li><p>安装hexo (命令：npm install -g hexo-cli)</p>
-</li>
-<li><p>创建个文件夹保存博客（这里我在本地建立个blog文件夹）</p>
-</li>
-<li><p>hexo  inint(初始化)</p>
-</li>
-<li><p>hexo insatll</p>
-</li>
-<li><p>npm install hexo-deployer-git –save</p>
-</li>
-<li><p>配置_config.yml中deploy</p>
-</li>
-<li><p>hexo g -d</p>
-</li>
-</ol>
+                <p>springboot集成定时任务</p>
+<p>1、集成schedule</p>
+<p>1.1启动类配置定时任务启动注解@EnableScheduling</p>
+<p><img src="/2020/01/06/springboot集成定时任务/D:%5Cblog%5Csource_posts%5Cassets%5C1578321844308.png" alt="57832184430"></p>
+<p>1.2@Component和@Scheduled(cron = “0 0 0/1 * * ?”)注解</p>
+<p>​    cron表达式（ 秒 分钟 小时 日 月  星期 年）</p>
+<p>​    0 0 0/1 * * ?  代表每小时执行一次</p>
+<p>​    0/2 * * * * ?  代表每两秒执行一次</p>
+<p><img src="/2020/01/06/springboot集成定时任务/D:%5Cblog%5Csource_posts%5Cassets%5C1578322179595.png" alt="57832217959"></p>
 
                 
 
@@ -265,13 +252,9 @@
                 <!-- Pager -->
                 <ul class="pager">
                     
-                        <li class="previous">
-                            <a href="/2019/09/13/测试图片/" data-toggle="tooltip" data-placement="top" title="hexo博客上传图片">&larr; Previous post</a>
-                        </li>
-                    
                     
                         <li class="next">
-                            <a href="/2019/07/20/Idea快速创建SpringBoot项目/" data-toggle="tooltip" data-placement="top" title="如何用idea快速创建springboot项目">Next post &rarr;</a>
+                            <a href="/2019/09/16/SpringBoot集成WebSocket/" data-toggle="tooltip" data-placement="top" title="SpringBoot集成 WebSocket">Next post &rarr;</a>
                         </li>
                     
                 </ul>
@@ -484,7 +467,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("http://yoursite.com/2019/09/13/基于gitHub+hexo搭建个人博客/index.html/js/jquery.tagcloud.js",function(){
+        async("http://yoursite.com/2020/01/06/springboot集成定时任务/index.html/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
