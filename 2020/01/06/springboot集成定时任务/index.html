@@ -236,15 +236,16 @@
                 col-md-10 col-md-offset-1
                 post-container">
 
-                <p>springboot集成定时任务</p>
+                <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title:springboot集成定时任务</span><br></pre></td></tr></table></figure>
+
 <p>1、集成schedule</p>
 <p>1.1启动类配置定时任务启动注解@EnableScheduling</p>
-<p><img src="/2020/01/06/springboot集成定时任务/D:%5Cblog%5Csource_posts%5Cassets%5C1578321844308.png" alt="57832184430"></p>
+<p><img src="/2020/01/06/springboot集成定时任务/1578321844308.png" alt="57832184430"></p>
 <p>1.2@Component和@Scheduled(cron = “0 0 0/1 * * ?”)注解</p>
 <p>​    cron表达式（ 秒 分钟 小时 日 月  星期 年）</p>
 <p>​    0 0 0/1 * * ?  代表每小时执行一次</p>
 <p>​    0/2 * * * * ?  代表每两秒执行一次</p>
-<p><img src="/2020/01/06/springboot集成定时任务/D:%5Cblog%5Csource_posts%5Cassets%5C1578322179595.png" alt="57832217959"></p>
+<p><img src="/2020/01/06/springboot集成定时任务/1578322179595.png" alt="57832217959"></p>
 
                 
 
